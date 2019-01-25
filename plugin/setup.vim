@@ -1,4 +1,4 @@
-function s:SID()
+function! s:SID()
     if !exists("s:sid")
         let s:sid = matchstr(expand('<sfile>'), '<SNR>\zs\d\+\ze_SID$')
     endif
